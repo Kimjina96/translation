@@ -22,7 +22,7 @@ with col1:
                         inputs,
                         length_penalty=1.0,
                         max_length=10000,
-                        min_length=12,
+                        min_length=1,
                         num_beams=20,
                         repetition_penalty=1.5,
                         no_repeat_ngram_size=15,)
